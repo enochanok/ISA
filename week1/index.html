@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Interest Calculator</title>
+    </head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="maindiv">
+            <h1>Simple Interest Calculator</h1>
+            <label>Amount:</label>
+                <input type="number" id="principal"><br>
+            <label>Rate</label>
+                <input type="range" id="rate" min="0" max="20" value="10.25" step="0.25" onchange="updateRate()">
+                <span id="rate_val" >10.25</span>%<br>
+            <label>No. of Years</label>
+                <select id="years" name="years">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select><br>
+            <Label>Interest :</Label>
+                <span id="result"></span><br>
+                <button  onclick="compute()">
+                    Compute Interest
+                </button>
+            <span id="result"></span>
+        </div>
+        <footer>
+            &copy; This Calculator belongs to Hanok Tamang
+        </footer>
+    <script src="script.js"></script>
+    </body>
+</html>
+
+
+
+

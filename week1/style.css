@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial;
+    margin: 3em;
+    color:white;
+    background-color:black;
+    justify-content: center;
+    text-align: center;
+}
+
+.maindiv{
+    margin: auto;
+    background-color: white;
+    color: black;
+    width: 300px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+h1{
+    color:rgb(116, 115, 115);
+    font-family: Verdana;
+}
+
+footer{
+    padding-top: 0.5em;
+}
+
+
+
+
+
