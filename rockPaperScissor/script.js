@@ -1,69 +1,4 @@
 
-
-// let winMsg = 'Victory';
-// let loseMsg = 'Defeat';
-// let tieMsg = 'Tie';
-
-// let moveList = ['Rock','Paper','Scissors'];
-
-// //Message
-// let statusDisplay = document.querySelector('#status-head').innerHTML = "Choose!";
-
-// //buttons section
-// let buttons = document.querySelectorAll('button');
-
-
-// let startGame = (argument) => {
-//     buttons.forEach((button, index) =>{
-//         button.textContent = moveList[index];
-//         button.style.display = 'inline-block';
-//         button.addEventListener('click', endGame)
-//     })
-// }
-
-// function randomMove() {
-//     let move2 = Math.floor(Math.random() * 3);
-//     return move2;
-// }
-
-// function endGame(event){
-//     let userMoveText =  event.target.innerHTML;
-//     let userInput = moveList.indexOf(userMoveText)
-//     let computerInput = randomMove()
-     
-//     calcResult(userInput,computerInput)
-    
-// }
-
-// function calcResult(move1, move2){
-//     console.log(move1, move2)
-//     if (move1 == move2){
-//         return {
-//             "Message" : tieMsg,
-//             "User": move1,
-//             "Computer" :move2};
-//     } else if (
-//         (move1 == "0" && move2 == "2") || 
-//         (move1 == "1" && move2 == "0") || 
-//         (move1 == "2" && move2 == "1")){
-//         return {
-//             "Message": winMsg,
-//             "User": move1,
-//             "Computer": move2
-//         };
-//     } else{
-//         return {
-//             "Message": loseMsg,
-//             "User": move1,
-//             "Computer": move2
-//         };
-//     }
-
-// }
-
-// document.addEventListener("onload", startGame());
-
-
 let winMsg = 'Victory';
 let loseMsg = 'Defeat';
 let tieMsg = 'Tie';
@@ -87,6 +22,7 @@ let startGame = () => {
     }
 }
 
+//to generate random value
 let randomMove = () =>{
     return Math.floor(Math.random() * 3);
 }
