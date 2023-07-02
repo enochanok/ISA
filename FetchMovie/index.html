@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Description</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="searchBar">
+      <input id="movieName" placeholder="Search IMDb" />
+      <i id="Search" class="fa fa-search"></i>
+    </div>
+    <div class="container">
+      <div class="top-section">
+        <div class="top-section__top">
+          <h1 id="movieTitle"></h1>
+        </div>
+        <div class="top-section__buttom">
+          <p id="rating"></p>
+          <p id="imdbRating"></p>
+          <p id="year"></p>
+          <p id="Runtime"></p>
+        </div>
+      </div>
+      <div class="lower-section">
+        <div class="lower-section__left">
+          <img id="img" src="" alt="" />
+        </div>
+        <div class="lower-section__right">
+          <p id="plot"></p>
+          <a id="genre"></a>
+          <p id="director"></p>
+          <p id="writer"></p>
+          <p id="cast"></p>
+        </div>
+      </div>
+    </div>
+    <div id="footer"></div>
+  </body>
+  <script src="script.js" defer></script>
+</html>
