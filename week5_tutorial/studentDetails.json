@@ -1,0 +1,37 @@
+
+[
+    {
+        "name": "Hanok Tamang",
+        "address": "Bhaisepati",
+        "DOB": "26/06/2002",
+        "phoneNumber": "+9779865090972"
+    },
+
+    {
+        "name": "Nischal Pradhan",
+        "address": "Dhumbarahi",
+        "DOB": "16/04/2003",
+        "phoneNumber": "+9779818387285"
+    },
+
+    {
+        "name": "Oscar Subedi",
+        "address": "Kapan",
+        "DOB": "27/08/1999",
+        "phoneNumber": "+977981234566"
+    },
+
+    {
+        "name": "Pasang Galzing Sherpa",
+        "address": "Ramhiti",
+        "DOB": "18/06/1999",
+        "phoneNumber": "+9779898654234"
+    },
+
+    {
+        "name": "Mayank Baryal",
+        "address": "Kalo Pul",
+        "DOB": "18/06/2001",
+        "phoneNumber": "+97791234567"
+    }
+]

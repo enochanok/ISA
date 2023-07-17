@@ -1,5 +1,4 @@
 
-
 let fetchData = function fetchMovie(movieName){
     return new Promise((resolve, reject) => {
         const title = document.getElementById("movieName").value;
@@ -21,18 +20,18 @@ let fetchData = function fetchMovie(movieName){
 }
 
 function searchResponse(data) {
-     movieTitle.innerHTML = data.Title;
-     rating.innerHTML = data.Rated;
-     plot.innerHTML = data.Plot;
-     imdbRating.innerHTML = `<i class="fa fa-star" aria-hidden="true"></i> ` +  data.imdbRating;
-     img.src = data.Poster;
-     genre.innerHTML = "Genre: " + data.Genre;
-     year.innerHTML = data.Year;
-     cast.innerHTML = "Cast: " + data.Actors; 
-     Runtime.innerHTML = data.Runtime;
-     director.innerHTML = "Director: " + data.Director;
-     writer.innerHTML = "Writer: " + data.Writer;
-     footer.innerHTML = "&copy Hanok Tamang. All rights reserved. Made with omdbapi "
+     document.getElementById("movieTitle").innerHTML = data.Title;
+     document.getElementById("rating").innerHTML = data.Rated;
+     document.getElementById("plot").innerHTML = data.Plot;
+     document.getElementById("imdbRating").innerHTML = `<i class="fa fa-star" aria-hidden="true"></i> ` +  data.imdbRating;
+     document.getElementById("img").src = data.Poster;
+     document.getElementById("genre").innerHTML = "Genre: " + data.Genre;
+     document.getElementById("year").innerHTML = data.Year;
+     document.getElementById("cast").innerHTML = "Cast: " + data.Actors; 
+     document.getElementById("Runtime").innerHTML = data.Runtime;
+     document.getElementById("director").innerHTML = "Director: " + data.Director;
+     document.getElementById("writer").innerHTML = "Writer: " + data.Writer;
+     document.getElementById("footer").innerHTML = "&copy Hanok Tamang. All rights reserved. Made with omdbapi"
 }
 
 function setData(data){
@@ -40,7 +39,6 @@ function setData(data){
         searchResponse(data);
     }, 1000);
 }
-
 
 
 async function main() {

@@ -22,6 +22,9 @@ let startGame = () => {
     }
 }
 
+
+
+
 //to generate random value
 let randomMove = () =>{
     return Math.floor(Math.random() * 3);
